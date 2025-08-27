@@ -8,7 +8,7 @@ echo $(date) [done.sh] ...Starting done.sh script
 #sleep 0.5
 
 echo $(date) [done.sh] ...Playing finish beep
-paplay --property=media.role=notification /home/pi/custom-sounds/done.wav 
+paplay --property=media.role=notification /home/aaron/wyoming-satellite/sounds/done.wav 
 sleep 1
 
 ### Here we will end the audio ducking we invoked at teh awake.sh stage
