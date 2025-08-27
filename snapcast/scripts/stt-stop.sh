@@ -6,4 +6,4 @@ sleep 0.5
 
 #purely for fun, this will play a sound after the user speech-to-text stage is done - computer is working :)
 echo $(date) [stt-stop.sh] ...Playing sound after speech input
-paplay --property=media.role=notification /home/pi/custom-sounds/stt-stop.wav
+paplay --property=media.role=notification /home/aaron/wyoming-satellite/sounds/done.wav
